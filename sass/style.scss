@@ -1,0 +1,12 @@
+// import Layouts//
+@use "./layouts/reset";
+@use "./layouts/nav";
+@use "./layouts/footer";
+@use "./layouts/secciones";
+
+//import page//
+@use "./page/index";
+@use "./page/contactos";
+@use "./page/productos";
+@use "./page/preguntas";
+@use "./page/politica";

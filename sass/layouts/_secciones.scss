@@ -1,0 +1,36 @@
+@mixin flex-justify-align2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section--h1{
+    // @include flex-justify-align;
+    
+    @include flex-justify-align2;
+    background-color: black;
+    color: gray;
+    height: 100px;
+}
+#envios{
+    @include flex-justify-align2;
+    height: 100px;
+    background-color: black;
+    color: rgb(128, 10, 10);
+    
+}
+#envios--h3{
+    margin: 10px;
+}
+#datos{
+    @include flex-justify-align2;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    column-gap: 50px;
+    height: 100px;
+}
+#datos a{
+    color: white;
+}
+#datos input{
+    background-color: rgb(47, 45, 45);
+}

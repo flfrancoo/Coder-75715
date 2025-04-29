@@ -1,0 +1,48 @@
+
+@mixin flex-justify-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header--sectionimg{
+    @include flex-justify-align;
+    background-color: black;
+}
+.header--sectionimg img{
+    width: 180px;
+    margin: 20px;
+    
+}
+.header--nav__menu {
+    @include flex-justify-align;
+    column-gap: 50px;
+}
+
+.header--nav__menu a {
+    color: white;
+    text-decoration: none;
+}
+.header--h1{
+    @include flex-justify-align;
+    margin: 10px;
+}
+.header--section__imagenes{
+    @include flex-justify-align;
+    
+    margin: 15px;
+    column-gap: 10px;
+}
+.header--section__imagenes img{
+    width: 100px;
+    height: 110px;
+}
+#nav{
+    @include flex-justify-align;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+#nav{
+    height: 60px;
+}
