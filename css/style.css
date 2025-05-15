@@ -189,6 +189,8 @@
   height: 100px;
   background-color: black;
   color: rgb(128, 10, 10);
+  column-gap: 50px;
+  font-size: clamp(1rem, 1vw + 0.5rem, 2rem);
 }
 
 #envios--h3 {
