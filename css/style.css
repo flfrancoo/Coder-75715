@@ -99,6 +99,27 @@
   height: 110px;
 }
 
+.barra-movimiento-contenedor {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.barra-movimiento-texto {
+  display: inline-block;
+  padding: 10px 0;
+  animation: movimiento 30s linear infinite;
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 #nav {
   display: flex;
   justify-content: center;
